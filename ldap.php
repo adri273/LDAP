@@ -7,6 +7,7 @@
 <script src="utils/js/jquery.min.js"></script>
 <script src="utils/js/bootstrap.min.js"></script>
 
+<body style="text-align:center;">
 <?php
   //desactivamos los erroes por seguridad
   error_reporting(0);
@@ -116,3 +117,4 @@
     echo "<br><br>No se ha podido realizar la conexión con el servidor LDAP: ".$servidor_LDAP;
   }
 ?>
+</body>
